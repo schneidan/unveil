@@ -10,6 +10,9 @@ That's what I did and this is my lightweight version of Lazy Load with support f
 
 Visit unveil's [project page](http://luis-almeida.github.com/unveil/) to read the documentation and see the demo.
 
+###Differences
+
+Use a threshold of -1 to trigger when you call rather than based on scroll distance, allowing you to still use the callback function (i.e. to load images first before running a carousel/slideshow builder on the same image set).   
 
 ###Browser support
 Compatible with All Browsers and IE7+.
